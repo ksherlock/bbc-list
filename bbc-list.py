@@ -86,7 +86,7 @@ Tokens = {
 	0xcb: "OLD",
 	0xcc: "RENUMBER",
 	0xcd: "SAVE",
-	0xce: "EDIT",
+	0xce:  "", # "EDIT",
 	0xcf: "PTR",
 
 	0xd0: "PAGE",
@@ -263,7 +263,7 @@ def main():
 						if pretty and not space:
 							p(' ')
 						p(t)
-						if pretty and t[-1] != '(':
+						if pretty and len(t) > 0 and t[-1] != '(':
 							p(' ')
 							space = True
 
