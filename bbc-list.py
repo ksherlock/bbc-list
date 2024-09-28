@@ -215,6 +215,7 @@ def main():
 # z80 code does rotate instead of shift but the and #$c0 clears out the bits so it's equivalent.
 # see also:
 # https://xania.org/200711/bbc-basic-line-number-format
+# http://www.mdfsnet.f9.co.uk/Docs/Comp/BBCBasic/Line/Numbers3
 
 						if num == 0:
 							a, b, c = scratch
