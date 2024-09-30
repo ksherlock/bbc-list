@@ -14,7 +14,7 @@ def encode(x):
 	])
 
 
-nums = [random.randint(1, 32767) for x in range(20)]
+nums = random.sample(range(0, 32767), 20)
 nums.sort()
 
 for n in nums:
