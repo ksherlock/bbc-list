@@ -86,7 +86,7 @@ Tokens = {
 	0xcb: "OLD",
 	0xcc: "RENUMBER",
 	0xcd: "SAVE",
-	0xce:  "", # "EDIT",
+	0xce: "", # "EDIT",
 	0xcf: "PTR",
 
 	0xd0: "PAGE",
